@@ -1521,9 +1521,7 @@ nav[role="navigation"] {
     display: flex;
     width: 60%;
     flex-wrap: wrap;
-    /* background-color: #2C2C2C; */
     margin: auto;
-    
 }
 
 .skill-box > svg {
