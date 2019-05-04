@@ -1,3 +1,3 @@
 Personal and portfolio site
 
-[live](http://www.jeremyfriedel.com)
+[Live](http://www.jeremyfriedel.com)

@@ -1511,8 +1511,12 @@ nav[role="navigation"] {
 
 }
 
-.skills {
+.skills, .resume {
     margin-top: 2em;
+    text-align: center;
+}
+
+.email{
     text-align: center;
 }
 
