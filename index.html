@@ -463,6 +463,10 @@
                 }
             }
         }
+
+        // Define the element you want to monitor
+        var el = document.querySelector("#speaker-small");
+
         var handler = onVisibilityChange(el, function (visible) {
             if (visible) {
                 if ($("#speaker-small").hasClass("onscreen")) return;
@@ -474,7 +478,9 @@
         });
 
         $(window).on('DOMContentLoaded load resize scroll', handler);
+
         document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))
+        
     </script>
 
 </body>
