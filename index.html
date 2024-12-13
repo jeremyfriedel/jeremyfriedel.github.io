@@ -465,10 +465,10 @@
         }
         var handler = onVisibilityChange(el, function (visible) {
             if (visible) {
-                if $("#speaker-small").hasClass("onscreen")) return;
+                if ($("#speaker-small").hasClass("onscreen")) return;
                 $("#speaker-small").addClass("onscreen");
             } else {
-                if !$("#speaker-small").hasClass("onscreen")) return;
+                if (!$("#speaker-small").hasClass("onscreen")) return;
                 $("#speaker-small").removeClass("onscreen");
             }
         });
