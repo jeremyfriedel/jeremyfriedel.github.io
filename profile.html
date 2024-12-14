@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -15,10 +16,11 @@
     <link rel="stylesheet" href="style.css" media="screen" />
 
 
-    <link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Righteous&subset=latin,latin-ext' rel='stylesheet'
+        type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
 
-     <script src="scripts/modernizr.js"></script>
+    <script src="scripts/modernizr.js"></script>
 
 </head>
 
@@ -28,7 +30,8 @@
         <span class="cd-nav-icon"></span>
 
         <svg x="0px" y="0px" width="54px" height="54px" viewBox="0 0 54 54">
-            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+            <circle fill="transparent" stroke="#90D4C5" stroke-width="2" cx="27" cy="27" r="25"
+                stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
         </svg>
     </a>
 
@@ -49,13 +52,13 @@
                 <address>
                     <ul class="cd-contact-info">
                         <li><a href="mailto:jeremyfriedel@yahoo.com">
-                            jeremyfriedel@yahoo.com</a></li>
+                                jeremyfriedel@yahoo.com</a></li>
                         <li>516-639-5199</li>
                     </ul>
                     <ul class="cd-contact-socials">
-                      <li><a href="https://www.linkedin.com/in/jeremyfriedel" target="_blank">LinkedIn</a></li>
-                      <li><a href="http://www.github.com/jeremyfriedel" target="_blank">Github</a></li>
-                      <li><a href="JeremyFriedelResume.pdf" target="_blank">Resume</a></li>
+                        <li><a href="https://www.linkedin.com/in/jeremyfriedel" target="_blank">LinkedIn</a></li>
+                        <li><a href="http://www.github.com/jeremyfriedel" target="_blank">Github</a></li>
+                        <li><a href="JeremyFriedelResume.pdf" target="_blank">Resume</a></li>
                     </ul>
                 </address>
             </div> <!-- .cd-half-block -->
@@ -74,25 +77,25 @@
         <section class="site-content">
 
             <div class="page-desc">
-              <p>I'm a software developer with experience in JavaScript, React, Redux, Rails, Ruby, Java and Python. 
-                  From making Flash games at 15 to teaching myself React and Redux,
-                   I've always been amazed at the power of software to do incredible things. 
-                   I develop full-stack applications in New York.</p>
+                <p>I'm a software developer with experience in JavaScript, React, Redux, Rails, Ruby, Java and Python.
+                    From making Flash games at 15 to teaching myself React and Redux,
+                    I've always been amazed at the power of software to do incredible things.
+                    I develop full-stack applications in New York.</p>
 
 
                 <img height="301px" width="459px" src="img/personal-pic.JPG" alt="" />
 
                 <div class="row">
                     <div class="large-2">
-                      <h6>|| LANGUAGES</h6>
+                        <h6>|| LANGUAGES</h6>
                     </div>
                     <div class="large-2">
-                      <p style="text-decoration: underline;">I write code in:</p>
-                        <p><i> JavaScript,  </i><i> Ruby,  </i><i> Rails,  </i></p>
+                        <p style="text-decoration: underline;">I write code in:</p>
+                        <p><i> JavaScript, </i><i> Ruby, </i><i> Rails, </i></p>
                         <p><i> React, </i><i> Redux, </i><i> jQuery, </i></p>
                         <p><i> Node.js, </i><i> SQL, </i><i> Git, </i></p>
                         <p><i> Python, </i><i> Java, </i><i> C, </i></p>
-                        <p><i> HTML,  </i><i> CSS,  </i><i> Shell  </i></p>
+                        <p><i> HTML, </i><i> CSS, </i><i> Shell </i></p>
                         <p><i> Docker, </i><i> AWS, </i><i> Webpack </i></p>
                     </div>
                 </div>
@@ -107,25 +110,30 @@
 
             </article>
 
-        <!--END .site-content-->
+            <!--END .site-content-->
         </section>
 
 
 
-         <footer class="site-footer cf">
-            <p class="footer-text">© Copyright 2021 </p>
+        <footer class="site-footer cf">
+            <p class="footer-text">© Copyright <span id="copyright-year"></span> </p>
 
         </footer>
 
-
-    <!--END .site-container-->
+        <!--END .site-container-->
     </div>
 
     <script src="scripts/jquery-2.1.4.min.js"></script>
     <script src="scripts/jquery.fitvids.js"></script>
     <script src="scripts/jquery.imagesloaded.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script>
+
+        document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()))
+
+    </script>
 
 
 </body>
+
 </html>
